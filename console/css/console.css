@@ -1,0 +1,48 @@
+body{
+	height: 1000px;
+	width: 100%
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	zoom:1;
+	overflow: hidden;
+}
+article{
+	background: #fbfba3;
+	width: 500px;
+	border: 2px solid #808080;
+	box-shadow: 0 0px 18px #808080;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+header{
+	background: #f75a6f;
+	padding: 5px 0;
+	z-index: 0;
+}
+li{
+	list-style: none;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 10px;
+}
+a{
+	color: #6fb4e7;
+	font-weight: 900;
+	text-decoration: none
+}
+h3{
+	display: inline;
+	margin: 0 10px;-moz-user-focus: none;
+}
+header a{
+	float: right;
+	margin: 0 10px;
+}
+section{
+	padding: 0 10px 10px;
+	height: 306px;
+	overflow: auto;
+}

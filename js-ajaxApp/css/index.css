@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,button,nav{
+	margin: 0 auto;
+	text-align: center;
+}
+body{
+	background: #3BD8C7;
+}
+
+h1{
+	font-size: 50px;
+	color:#fff;
+	background: #000;
+	padding: 15px 0;
+}
+button{
+	margin: 15px;
+	width: 100px;
+	height: 40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+section{
+	padding: 10px;
+}
+article{
+	float: left;
+	padding: 5px;
+	border:solid 3px #fff; 
+	font-weight: bold;
+}
+p{
+	overflow: hidden;
+	zoom: 1;
+}

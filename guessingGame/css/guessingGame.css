@@ -1,0 +1,156 @@
+
+.container{
+	width: 500px;
+	height: 500px;
+	background-color: #fffbf0;
+	position: absolute;
+	top: 50%;
+	margin-top: -250px;
+	left: 50%;
+	margin-left: -250px;
+	border: 5px dashed #ffb3a7;
+	overflow: hidden;
+}
+#action{
+	position: absolute;
+	background-color: #fffbf0; 
+}
+.inner{
+	width: 500px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+#explain,#rightResults,#wrongResults{
+	height: 250px;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+}
+h3{
+	margin: 0 100px;
+	line-height: 27px;
+	text-indent: 40px;
+}
+h4{
+	text-align: center;
+}
+#action-butten{
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-image: url("../images/actionbtn.png");
+	text-align: center;
+
+}
+#action-butten:active{
+	background-image: url("../images/clickactionbtn.png");
+}
+h2{
+	line-height: 50px;
+	cursor: pointer;
+}
+#top{
+	width: 500px;
+	height: 150px;
+	margin: 0;
+	border-bottom: 5px dashed #ffb3a7;
+}
+#bottom{
+	width: 520px;
+	height: 322px;
+	margin: 0;
+	margin-right: 10px;
+	overflow: auto;
+}
+#exit{
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+#fournumber{
+	width: 250px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.write{
+	font-size: 20px;
+	width: 35px;
+	text-align: center;
+	border: none;
+	background: #fffbf0; 
+	border-bottom: 2px solid #333;
+	margin: 10px;
+}
+#determine{
+	width: 100px;
+	height: 36px;
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
+	background-image: url("../images/determine.png");
+	border: none;
+	outline:none;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	cursor: pointer;
+
+}
+.notrepeat{
+	text-align: center;
+}
+#determine:active{
+	background-image: url("../images/clickdetermine.png");
+}
+#bottom #wrong,#bottom #result{
+	border-bottom:2px solid #ffb3a7;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+#bottom #wrong,#bottom #result,
+span{
+	line-height: 32px;
+	text-align: center;
+	width: 248px;
+	float: left;
+}
+.wrong,#wrong,
+.result,#result{
+	display: block;
+	list-style: none;
+}
+#wrong{
+	border-right: 2px dotted #ffb3a7;
+}
+#result{
+	border-left: 2px dotted #ffb3a7;
+}
+.wrong{
+	border-right: 2px dotted #fffbf0;
+}
+.result{
+	border-left: 2px dotted #fffbf0;
+}
+#prompt{
+	background: url('../images/prompt.png') no-repeat;
+	line-height: 170px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+	width: 336px;
+	height: 200px;
+}
+ul{
+	zoom:1;
+	overflow: hidden;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="css/guessingGame.css" />
+	<title>guessingGame</title>
+</head>
+<body>
+	<div class="container">
+		<div id="action"class="inner">
+			<div id="explain">
+				<h3>当点击开始游戏，计算机会生成一个四位数字，你有9次机会猜这个数字，计算机会根据您猜的数字给与提示，~*A*B~其中A前面的数字表示位置正确的数的个数，而B前的数字表示数字正确而位置不对的数的个数。</h3>
+
+				<h4>例：计算机生成“2388”，您若猜8888，将提示2A0B</h4>
+				<div class="notrepeat">
+					<input type="checkbox" value="不重复数字" id="notrepeat" name="notrepeat">
+					<label for="notrepeat">不重复数字</label>
+				</div>
+			</div>
+			<div id="rightResults" style="display:none">
+				<h1>恭喜您</h1>
+				<h1>您猜数成功</h1>
+				<h1>正确结果是</h1>
+				<h1 id="right-number"></h1>
+			</div>
+			<div id="wrongResults" style="display:none">
+				<h1>太遗憾了！</h1>
+				<h1>您猜数失败</h1>
+				<h1>正确结果是</h1>
+				<h1 id="wrong-number"></h1>
+			</div>
+			<div id="action-butten"><h2>开始游戏</h2></div>
+		</div>
+		<div id="play" class="inner">
+				<img src="images/exit.png" alt="退出" id="exit" title="退出本关"/>
+			<div id="top">
+				<div id="fournumber">
+					<input type="text" class="write" maxlength="1" size="1"/>
+					<input type="text" class="write" maxlength="1" size="1"/>
+					<input type="text" class="write" maxlength="1" size="1"/>
+					<input type="text" class="write" maxlength="1" size="1"/>
+					<a id="determine">确定</a>
+				</div>
+			</div>
+			<div id="bottom">
+				<ul>
+					<span id="wrong">我的猜测</span>
+					<span id="result">电脑提示</span>
+				</ul>
+				<ul id="answer">
+				</ul>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+	<div id="prompt" style="display:none"></div>
+    <script src="js/guessingGameKu.js"></script>
+    <script src="js/guessingGame.js"></script>
+</body>
+</html>
