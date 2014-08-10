@@ -1,0 +1,106 @@
+body, div, ul, li, h2, h3, form, fieldset, legend, button, p, blockquote, input ,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+body, button, input, select, textarea {
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+}
+body {
+	color: #3c3c3c;
+}
+ol, ul {
+	list-style: none;
+	overflow: hidden;
+	zoom:1;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #6c6c6c;
+}
+a:hover{
+	color: #f40;
+}
+.header-nav i {
+	display: inline;
+	float: left;
+	position: relative;
+	margin: 15px 0;
+	width: 6px;
+	height: 6px;
+}
+i em, i span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-color: rgba(255,255,255,0);
+	border-style: solid;
+	overflow: hidden;
+	border-width: 3px 3px 0;
+}
+i em {
+	top: 1px;
+	border-top-color: #6c6c6c;
+}
+i span {
+	border-top-color: #f5f5f5;
+}
+
+@font-face{
+	font-family:'iconfont';
+	src:url(../font/iconfont.eot);
+	src:url(../font/iconfont.eot?#iefix) format("embedded-opentype"),
+		url(../font/iconfont.woff) format("woff"),
+		url(../font/iconfont.ttf) format("truetype"),
+		url(../font/iconfont.svg#uxiconfont) format("svg")
+}
+.iconfont {
+	font-style: normal;
+	font-family: global-iconfont;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscaleFont type;
+}
+.orange{
+	color: #f40;
+	margin-right: 5px;
+}
+.gray .iconfont{
+	margin-right: 5px;
+}
+.gray:hover .iconfont{
+	color: #f40;
+}
+.menu-right-list{
+	color: #9c9c9c;
+}
+.blod{
+	font-weight: bold;
+}
+.more{
+	margin-right: 0;
+	padding: 0 10px 0 5px;
+	border: 1px solid #e8e8e8;
+	background: #fff;
+}
+.more i {
+	position: absolute;
+	top: 6px;
+	left: 30px;
+}
+.more em {
+	left: 2px;
+	top: 0px;
+	border-left-color: #dadada;
+	border-top-color: transparent ;
+	border-width: 3px 0 3px 3px;
+}
+.more span {
+	border-left-color: #fff;
+	border-top-color: transparent ;
+	border-width: 3px 0 3px 3px;
+}
+

@@ -1,0 +1,101 @@
+.header-nav{
+	width: 100%;
+	background: #f5f5f5;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+	zoom:1;
+}
+.header-nav:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hN-content{
+	width: 1190px;
+	margin: 0 auto;
+	height: 35px;
+	background: #f5f5f5;
+}
+.hN-contentL{
+	float: left;
+}
+.hN-contentR{
+	float: right;
+}
+
+.wrapper{
+	width: 1190px;
+	margin: 0 auto;
+	height: 1000px;
+}
+.top-head{
+	padding-top: 30px;
+	height: 100px;
+	overflow: hidden;
+}
+.top-content{
+	float: left;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.sidebar{
+	z-index: 1000;
+	position: relative;
+	float: left;
+	margin-left: -100%;
+	width: 190px;
+	margin-right: 10px;
+}
+.main{
+	position: relative;
+	margin-left: 200px;
+	overflow: hidden;
+}
+.main-nav{
+	background: white;
+}
+.main-l {
+	display: inline;
+	float: left;
+	margin-right: -100%;
+	width: 520px;
+	overflow: hidden;
+}
+.main-c {
+	display: inline;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.main-r {
+	display: inline;
+	float: left;
+	margin-left: -292px;
+	width: 290px;
+}
+.main-c-wrap{
+	margin: 0 300px 0 520px;
+}
+.map{
+	clear: both;
+}
+.Re-main{
+	display: inline;
+	float: left;
+	margin-right: .84034%;
+	width: 66.38655%;
+	background: #686751;
+}
+.Re-side {
+	display: inline;
+	float: right;
+	width: 32.77311%;
+	background: #109686;
+}
+.Re-sale{
+	padding-top: 30px;
+	clear: both;
+	overflow: hidden;
+	background: #156092;
+}

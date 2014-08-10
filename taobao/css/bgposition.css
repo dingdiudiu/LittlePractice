@@ -1,0 +1,32 @@
+.logo ,.cat-service dt s,.s-money {
+	background-image: url(../images/taobaomore.png);
+}
+.vip-icon {
+	background-image: url(../images/rank.png);
+}
+.gif-hot {
+background: url(../images/hot.gif) 0 0 no-repeat;
+}
+.gif-new {
+background: url(../images/new.gif) 0 0 no-repeat;
+}
+
+
+.vip-icon {
+	background-position: 0 -20px;
+}
+.s-service-theme {
+	background-position: -150px -240px;
+}
+.s-service-special {
+	background-position: -150px -215px;
+}
+.s-service-favourable {
+	background-position: -150px -190px;
+}
+.s-service-tool {
+	background-position: -150px -265px;
+}
+.s-money {
+	background-position: -150px -290px;
+}
