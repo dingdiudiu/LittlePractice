@@ -1,0 +1,117 @@
+body *{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	margin: 0 auto;
+	width: 1024px;
+}
+.wrap-bd{
+	width: 1024px;
+	overflow: hidden;
+	position: relative;
+}
+.content{
+	overflow: hidden;
+	zoom:1;
+	width: 5000px;
+}
+.move{
+	position: relative;
+}
+.content li{
+	display: block;
+	float: left;
+}
+
+.toleft{
+	background: #000;
+	width: 80px;
+	height: 120px;
+	position: absolute;
+	zoom: 1;
+	top: 125px;
+	left: 25px;
+	opacity: 0.3;cursor:pointer
+}
+.toleft:hover{
+	opacity: 0.6;
+}
+i{
+	display: block;
+	width: 60px;
+	height: 90px;
+	position: relative;
+	left:50%;
+	top:50%;
+	margin-top: -45px;
+	margin-left: -30px;
+}
+.toleft em{
+	width: 0px;
+	height: 0px;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-right: 35px solid #fff;
+	border-left: 8px solid transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.toleft span{
+	width: 0px;
+	height: 0px;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-right: 35px solid #000;
+	border-left: 8px solid transparent;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+
+.toright{
+	background: #000;
+	width: 80px;
+	height: 120px;
+	position: absolute;
+	zoom: 1;
+	top: 125px;
+	right: 25px;
+	opacity: 0.3;cursor:pointer
+}
+.toright:hover{
+	opacity: 0.6;
+}
+i{
+	display: block;
+	width: 60px;
+	height: 90px;
+	position: relative;
+	left:50%;
+	top:50%;
+	margin-top: -45px;
+	margin-left: -30px;
+}
+.toright em{
+	width: 0px;
+	height: 0px;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-right: 8px solid transparent;
+	border-left: 35px solid #fff;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+.toright span{
+	width: 0px;
+	height: 0px;
+	border-top: 45px solid transparent;
+	border-bottom: 45px solid transparent;
+	border-right: 8px solid transparent;
+	border-left: 35px solid #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
