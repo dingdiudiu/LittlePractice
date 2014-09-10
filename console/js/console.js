@@ -29,7 +29,7 @@ console = (function(){
 				mousemove(event);
 			}
 		DIU.event.addEvent(document,'keyup', function(event){
-			consoleBehavior(event);/
+			consoleBehavior(event);
 		});
 		DIU.event.addEvent(article,'mousedown', function(event){
 			mousedown(event);

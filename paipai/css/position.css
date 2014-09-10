@@ -1,0 +1,37 @@
+.icon-p,.head-r-submit{
+	background-image: url(../images/hdft.png);
+	background-repeat: no-repeat;
+}
+.head-inform{
+	background-image: url(../images/gcd_gg.png);
+	background-repeat: no-repeat;
+}
+.icon-right{
+	background-image: url(../images/style_v3.png);
+	background-repeat: no-repeat;
+}
+.icon-p-cart{
+	background-position: -39px -40px;
+	width: 16px;
+	height: 12px;
+	margin-right: 5px;
+	display: inline-block;
+}
+a.menu-hd{
+	padding: 0 5px;
+	display: inline-block;
+	_padding: 7px 5px;
+	zoom: 1;
+
+}
+.menu-bd a{
+	float: none;
+	display: block;
+	padding: 0 5px;
+	line-height: 29px;
+	white-space: nowrap;
+}
+
+.icon-right{
+	background-position: -50px -155px;
+}
