@@ -1,0 +1,30 @@
+html, body,
+
+h1, h2, p , span, a,
+
+div, ol, ul, li,
+
+table, tbody, tfoot, thead, tr, th, td,
+
+canvas ,button{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    -webkit-text-size-adjust:none;
+    font-family: "微软雅黑";
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+button{
+	background: none;
+	border: none;
+}

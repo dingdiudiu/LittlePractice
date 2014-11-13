@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>画5</title>
+	<style type="text/css">
+		body{
+			background: #000;
+		}
+		.wrap{
+			width: 150px;
+			height: 300px;
+			margin: 200px auto 0px;
+			position: relative;
+		}
+		#one,#two{
+			background: #fff;
+		}
+		.step{
+			position: absolute;
+		}
+		.wrap *{
+			-webkit-transition:all 1s;
+		}
+		#one{
+			width: 0px;
+			height: 5px;
+		}
+		#two{
+			width: 5px;
+			height: 0px;
+			-webkit-transform-origin: 0px 0px;
+			-webkit-transform:rotate(15deg);
+		}
+		#three,#three *,#four,#four *{
+			width: 147px;
+			height: 147px;
+		}
+		#three{
+			top: 33px;
+			left: -37px;
+			-webkit-transform:rotate(15deg);
+			clip: rect(0,147px,85px,9px);
+		}
+		#three .inner_1{
+			-webkit-transform:rotate(-15deg);
+
+		}
+		#three .inner_2{
+			position: absolute;
+			left: 2px;
+			top: 2px;
+			background-image: url(images/num_up.png);
+			background-position: 9px 0;
+			background-repeat: no-repeat;
+			-webkit-transform: rotate(-150deg);
+		}
+		#four{
+			top: 35px;
+			left: -35px;
+			clip: rect(71px,147px,147px,0px);
+		}
+		#four .inner_2{
+			position: absolute;
+			background-image: url(images/num_down.png) ;
+			background-position: 9px 70px;
+			background-repeat: no-repeat;
+			-webkit-transform:rotate(-150deg);
+		}
+	}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="step" id="one"></div>
+		<div class="step" id="two"></div>
+		<div class="step" id="three">
+			<div class="inner_1">
+				<div class="inner_2"></div>
+			</div>
+		</div>
+		<div class="step" id="four">
+			<div class="inner_1">
+				<div class="inner_2"></div>
+			</div></div>
+	</div>
+</body>
+	<script type="text/javascript" src="fiveKU.js"></script>
+	<script type="text/javascript" src="five.js"></script>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<style type="text/css">
+	body{
+			-webkit-transform-style: preserve-3d !important;
+			-webkit-perspective: 1000px;
+			-webkit-perspective-origin: 50% 10%;
+	}
+	#experiment{
+		margin: 0 auto;
+		width: 200px;
+		-webkit-transform-style: preserve-3d !important;
+	}
+	.cube {
+		position: relative;
+		top: 200px;
+		width:200px;
+		font-size:30px;
+		text-align:center;
+		color:#fff;
+	}
+
+	.rightFace,
+	.leftFace,
+	.topFace div,
+	.bottomFace,
+	.bleftFace,
+	.brightFace {
+		padding: 10px;
+		width: 180px;
+		height: 180px;
+		line-height:180px;
+	  	position: absolute;
+		background:rgba(0,0,0,0.7);
+		left: 0px;
+		top: 0px;
+	}
+
+	.topFace div{
+		-webkit-transform: rotateX(90deg) translateZ(100px);
+	}
+	.leftFace{
+		-webkit-transform: rotateY(0deg) translateZ(100px);
+	}
+	.rightFace{
+		-webkit-transform: rotateY(90deg) translateZ(100px);
+	}
+	.bottomFace{
+		-webkit-transform: rotateX(-90deg) translateZ(100px);
+	}
+	.bleftFace{
+		-webkit-transform: rotateY(-90deg) translateZ(100px);
+	}
+	.brightFace{
+		-webkit-transform: rotateY(180deg) translateZ(100px);
+	}
+	.topFace{
+		-webkit-transform-style: preserve-3d !important;
+	}
+	#experiment{
+		-webkit-animation:run1 20s linear infinite ;
+	}    
+	@-webkit-keyframes run1{
+    	0%{-webkit-transform: rotateY(0deg)}
+    	100%{-webkit-transform: rotateY(360deg) }
+	}
+	/*.topFace{
+		-webkit-animation:run2 5s linear infinite ;
+		-webkit-transform-origin:100% 100%;
+	}    
+	@-webkit-keyframes run2{
+    	0%{-webkit-transform: rotateZ(0deg); }
+    	50%{-webkit-transform:rotateZ(180deg);}
+    	100%{-webkit-transform:rotateZ(0deg);}
+	}*/
+	.topFace{
+		-webkit-transition:all 2s;
+		-webkit-transform:rotateZ(0deg);
+		-webkit-transform-origin:100% 100%;
+		cursor:pointer;
+	}
+	.open{
+		-webkit-transform:rotateZ(135deg);
+	}
+	.close{
+		-webkit-transform:rotateZ(0deg);
+	}
+</style>
+<head>
+<title>练习</title>
+</head>
+<body>
+<div id="experiment">
+	<div class="cube">
+		<div class="topFace close">
+			<div>Content1</div>
+		</div>
+		<div class="leftFace">Content2</div>
+		<div class="rightFace">Content3</div>
+		<div class="bottomFace">Content4</div>
+		<div class="bleftFace">Content5</div>
+		<div class="brightFace">Content6</div>
+	</div>
+</div>
+</body>
+
+	<script type="text/javascript" src="demoKU.js"></script>
+	<script type="text/javascript" src="demo4.js"></script>
+</html>

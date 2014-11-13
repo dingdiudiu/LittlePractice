@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<style type="text/css">
+	
+	.cube {
+		position: relative;
+		width:500px;
+		margin: 0 auto;
+		font-size:30px;
+		text-align:center;
+		line-height:180px;
+		color:#fff;
+	}
+
+	.rightFace,
+	.leftFace,
+	.topFace,
+	.bottomFace,
+	.bleftFace,
+	.brightFace {
+		padding: 10px;
+		width: 180px;
+		height: 180px;
+	}
+
+	.rightFace,
+	.leftFace,
+	.topFace,
+	.bottomFace,
+	.bleftFace,
+	.brightFace {
+	  	position: absolute;
+	}
+
+	.topFace {
+		transform:skewX(-45deg) scaleY(0.25);
+		background:rgba(0,0,0,0.7);
+		z-index:3;
+	}
+	.leftFace{
+		background:rgba(0,0,0,0.7);
+		top:125px;
+		left:-25px;
+		z-index:3;
+	}
+	.rightFace{
+		background:rgba(0,0,0,0.7);
+		transform:skewY(-45deg) scaleX(0.25);
+		top:100px;
+		left:100px;	 
+		z-index:3;
+	}
+	.bottomFace{
+		background:rgba(0,0,0,0.7);
+		transform:skewX(-45deg) scaleY(0.25) rotateY(180deg);
+		top:200px;
+	}
+	.bleftFace{
+		background:rgba(0,0,0,0.7);
+		transform:skewY(-45deg) scaleX(0.25) rotateY(180deg);
+		top:100px;
+		left:-100px;
+	}
+	
+	.brightFace{
+		transform: rotateY(180deg);
+		background:rgba(0,0,0,0.7);
+		top:75px;
+		left:25px;
+	}
+</style>
+<head>
+	<title>练习</title>
+</head>
+<body>
+	<div id="experiment">
+		<div class="cube">
+		 	<div class="topFace">
+			    Content1
+		  	</div>
+		  	<div class="leftFace">
+		    	Content2
+		  	</div>
+		  	<div class="rightFace">
+		    	Content3
+		  	</div>
+		  	<div class="bottomFace">
+		    	Content4
+		  	</div>
+		  	<div class="bleftFace">
+		    	Content5
+		  	</div>
+		  	<div class="brightFace">
+		    	Content6
+		  	</div>
+		</div>
+	</div>
+</body>
+
+ <script type="text/javascript">
+ </script>
+</html>
